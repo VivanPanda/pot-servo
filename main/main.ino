@@ -18,6 +18,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   potVal = analogRead(potPin);
   Serial.println(potVal);
-  servoAngle = ((-120./340.) * potVal) + 180;
+  servoAngle = map(potVal, 0, 1023, 180, 0);
+  // servoAngle = ((-0.175953) * potVal) + 180; 
   myservo.write(servoAngle);
 }
