@@ -1,7 +1,9 @@
-# Arduino Project Template
+# Servo motor controlled using potentiometer
 
-This is my template repository for any and all arduino projects. 
+In this project, I attempted to use a potentiometer to control a servo motor.
 
 ## Key Takeaways
+
+- Controlling a servo motor
 
 ## Images
