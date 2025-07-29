@@ -1,4 +1,4 @@
-int potPin = A7;
+int potPin = A5;
 int servoPin = 7;
 int potVal;
 float servoAngle;
