@@ -10,3 +10,5 @@ In this project, I learnt how to use a potentiometer to control a servo motor.
 
 ## Images
 
+<img src="images/eqn.png">
+<img src="schematics/circuit.png">
